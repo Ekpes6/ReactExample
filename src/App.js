@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import './App.css';
 import AuthButton from "./AuthButton";
 
-let isLoggedIn = false;
+let isLoggedIn = true;
 class App extends Component {
   constructor(props) {
     super(props);
     
     this.state = {
-      isLoggedIn: false
+      isLoggedIn: true
     };
   }
 
